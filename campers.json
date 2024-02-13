@@ -1,0 +1,24 @@
+[
+    {
+        "documento": 1005369464,
+        "nombre": "Andres",
+        "apellido": "Castellanos",
+        "direccion": "calle 22 20 24",
+        "acudiente": "kellycita",
+        "telefono": 0,
+        "celular": 3112765058,
+        "estado": "En proceso de ingreso",
+        "riesgo": ""
+    },
+    {
+        "documento": 100,
+        "nombre": "luis",
+        "apellido": "miguel",
+        "direccion": "asjgfajs",
+        "acudiente": "asgasg",
+        "telefono": 0,
+        "celular": 3112564,
+        "estado": "En proceso de ingreso",
+        "riesgo": ""
+    }
+]

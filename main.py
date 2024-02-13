@@ -1,2 +1,0 @@
-listaGlobal = []
-listaGlobal = creacionCamper(listaGlobal)

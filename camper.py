@@ -1,7 +1,10 @@
 import json
+import jsonCRUD
 
 def creacionCamper():
-    lista = []
+    listaCampers = []
+    listaCampers = jsonCRUD.cargarDatos()
+    
     while True:
         try:
             documento = int(input("digita el numero de identificacion: \n"))
@@ -13,20 +16,11 @@ def creacionCamper():
             celular = int(input("Ingrese un telefono movil: \n"))
             estado = "En proceso de ingreso"
             riesgo = ""
+            ruta = ""
             break
         except ValueError:
             print("porfavor ingresa valores correctos")
-    lista.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo})
-    try:
-        with open('campers.json', 'r') as campers:
-            jsonCampers = json.load(campers)
-    except(FileNotFoundError, json.decoder.JSONDecodeError):
-        jsonCampers = []
-    jsonCampers.extend(lista)
-    with open('campers.json','w') as camp:
-        json.dump(jsonCampers,camp,indent=4)
-        print("agregado con exito al archivo json")
-    
+    listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo})
+    jsonCRUD.guardarDatos(listaCampers)
 
-creacionCamper()
 
