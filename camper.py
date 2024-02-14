@@ -1,9 +1,13 @@
 import json
 import jsonCRUD
+NodeJS = []
+Java = []
+NetCore = []
+rutas = (NodeJS, Java, NetCore)
 
 def creacionCamper():
     listaCampers = []
-    listaCampers = jsonCRUD.cargarDatos()
+    listaCampers = jsonCRUD.cargarDatos("campers.json")
     
     while True:
         try:
@@ -20,7 +24,9 @@ def creacionCamper():
             break
         except ValueError:
             print("porfavor ingresa valores correctos")
-    listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo})
-    jsonCRUD.guardarDatos(listaCampers)
+    listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo,'ruta':ruta})
+    jsonCRUD.guardarDatos(listaCampers,"campers.json")
+    
+creacionCamper()
 
 
