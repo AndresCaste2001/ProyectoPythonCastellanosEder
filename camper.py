@@ -1,9 +1,6 @@
 import json
 import jsonCRUD
-NodeJS = []
-Java = []
-NetCore = []
-rutas = (NodeJS, Java, NetCore)
+
 
 def creacionCamper():
     listaCampers = []
