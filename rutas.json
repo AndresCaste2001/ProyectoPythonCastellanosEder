@@ -1,8 +1,23 @@
 [
     {
-        "nombre": "kellycita mamasita",
+        "nombre": "Kellycita",
+        "fundamentos": [
+            "abrazos",
+            "besos",
+            "apapachos"
+        ],
         "programacionWeb": [
-            "besos,abrazos,apapachos"
+            "html",
+            "css"
+        ],
+        "progFormal": [
+            "java"
+        ],
+        "basesDatos": [
+            "MongoDB"
+        ],
+        "backend": [
+            "KellycitaBebsita"
         ]
     }
 ]
