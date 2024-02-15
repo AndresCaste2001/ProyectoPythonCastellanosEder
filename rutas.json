@@ -1,23 +1,85 @@
 [
     {
-        "nombre": "Kellycita",
+        "nombre": "NodeJS",
         "fundamentos": [
-            "abrazos",
-            "besos",
-            "apapachos"
+            "introduccion a la algoritmia",
+            "PSeint",
+            "Python"
         ],
         "programacionWeb": [
-            "html",
-            "css"
+            "HTML",
+            "CSS",
+            "Bootsrap"
         ],
         "progFormal": [
-            "java"
+            "Java",
+            "JavaScript",
+            "C#"
         ],
         "basesDatos": [
-            "MongoDB"
+            "Mysql",
+            "MongoDB",
+            "postgresql"
         ],
         "backend": [
-            "KellycitaBebsita"
+            "Netcore",
+            "springBoot",
+            "NodeJS",
+            "Express"
+        ]
+    },
+    {
+        "nombre": "Java",
+        "fundamentos": [
+            "introduccion a la algoritmia",
+            "PSeint",
+            "Java"
+        ],
+        "programacionWeb": [
+            "HTML",
+            "CSS",
+            "Bootsrap"
+        ],
+        "progFormal": [
+            "Java",
+            "JavaScript"
+        ],
+        "basesDatos": [
+            "Mysql",
+            "MongoDB",
+            "Neo4j"
+        ],
+        "backend": [
+            
+            "springBoot",
+            "NodeJS",
+            "Express"
+        ]
+    },
+    {
+        "nombre": "NetCore",
+        "fundamentos": [
+            "introduccion a la algoritmia",
+            "PSeint",
+            "C++"
+        ],
+        "programacionWeb": [
+            "HTML",
+            "CSS",
+            "Bootsrap"
+        ],
+        "progFormal": [
+            "Java"
+        ],
+        "basesDatos": [
+            "MongoDB",
+            "Neo4j"
+        ],
+        "backend": [
+            
+            "springBoot",
+            "NodeJS",
+            "Express"
         ]
     }
 ]
