@@ -18,12 +18,22 @@ def creacionCamper():
             estado = "En proceso de ingreso"
             riesgo = ""
             ruta = ""
+            notas = [0,0,0,0,0]
             break
         except ValueError:
             print("porfavor ingresa valores correctos")
     listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo,'ruta':ruta})
     jsonCRUD.guardarDatos(listaCampers,"campers.json")
-    
+ 
+def asignarArea():
+    listaArea = jsonCRUD.cargarDatos("areaEntrenamiento.json")
+    listaCampers = jsonCRUD.cargarDatos("campers.json")
+    for index,camper in enumerate(listaCampers):
+        nombre  = camper.get('nombre', 'sin nombre')
+        apellido = camper.get('apellido','sin apellido')
+        if camper['estado']=="aprobado":
+            print("Los siguientes campers estan aprobados: ")
+            print(f"{index+1}- {nombre} {apellido} ")
+    opcion = int(input("ingresa el indice del camper: "))
+
 creacionCamper()
-
-

@@ -18,7 +18,7 @@
         "acudiente": "asgasg",
         "telefono": 0,
         "celular": 3112564,
-        "estado": "En proceso de ingreso",
+        "estado": "aprobado",
         "riesgo": ""
     },
     {
@@ -30,6 +30,18 @@
         "telefono": 3,
         "celular": 43214,
         "estado": "En proceso de ingreso",
+        "riesgo": "",
+        "ruta": ""
+    },
+    {
+        "documento": 1005338786,
+        "nombre": "Kellycita mamasita",
+        "apellido": "Ayala",
+        "direccion": "carmentea",
+        "acudiente": "yo",
+        "telefono": 0,
+        "celular": 3052397584,
+        "estado": "aprobado",
         "riesgo": "",
         "ruta": ""
     }
