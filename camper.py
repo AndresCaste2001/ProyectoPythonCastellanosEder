@@ -35,5 +35,12 @@ def asignarArea():
             print("Los siguientes campers estan aprobados: ")
             print(f"{index+1}- {nombre} {apellido} ")
     opcion = int(input("ingresa el indice del camper: "))
+    print("Las siguientes areas estan libres: ")
+    for index2,area in enumerate(listaArea):
+        if area['cuposClases']<=33:
+            opcArea = area['nombre']
+            opcCupo = area['cuposClases']
+            print(f"{index2} nombre : {opcArea} --- cupo: {opcCupo}")
+    opcion = int(input("Ingresa el indice del salon que quieres registrar el camper: "))
 
 creacionCamper()
