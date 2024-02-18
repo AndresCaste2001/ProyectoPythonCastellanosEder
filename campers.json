@@ -1,0 +1,21 @@
+[
+    {
+        "documento": 1005369464,
+        "nombre": "Andres Castellanos",
+        "apellido": "Jerez",
+        "direccion": "calle 22",
+        "acudiente": "mi mamasita",
+        "telefono": 0,
+        "celular": 3112765058,
+        "estado": "Graduado",
+        "riesgo": "Bajo",
+        "nota": [
+            88.5,
+            87.0,
+            99.2,
+            95.0,
+            95.0
+        ],
+        "salon": "Sputnik1"
+    }
+]

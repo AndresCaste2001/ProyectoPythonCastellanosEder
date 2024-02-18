@@ -16,13 +16,13 @@ def creacionCamper():
             telefono = int(input("Ingrese un telefono  fijo: \n"))
             celular = int(input("Ingrese un telefono movil: \n"))
             estado = "En proceso de ingreso"
-            riesgo = ""
+            riesgo = "Bajo"
             salon = ""
-            notas = [0,0,0,0,0]
+            nota = [0,0,0,0,0]
             break
         except ValueError:
             print("porfavor ingresa valores correctos")
-    listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo,'nota':notas,'salon':salon})
+    listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo,'nota':nota,'salon':salon})
     jsonCRUD.guardarDatos(listaCampers,"campers.json")
 
 creacionCamper()
