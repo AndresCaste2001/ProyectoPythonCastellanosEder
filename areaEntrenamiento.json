@@ -1,50 +1,110 @@
-[{
-    "nombre":"Sputnik1",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Sputnik2",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Sputnik3",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Sputnik4",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Apolo1",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Apolo2",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Apolo3",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Apolo4",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Artemis1",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Artemis2",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Artemis3",
-    "cuposClases":0,
-    "ruta" : ""
-},{
-    "nombre":"Artemis4",
-    "cuposClases":0,
-    "ruta" : ""
-}
+[
+    {
+        "nombre": "Sputnik1",
+        "cuposClases": 0,
+        "ruta": "Java",
+        "fechaInicio": "11032023",
+        "fechaSalida": "10122023",
+        "trainer": "Kellycita",
+        "horario": 1
+    },
+    {
+        "nombre": "Sputnik2",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 2
+    },
+    {
+        "nombre": "Sputnik3",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 3
+    },
+    {
+        "nombre": "Sputnik4",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 4
+    },
+    {
+        "nombre": "Apolo1",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 1
+    },
+    {
+        "nombre": "Apolo2",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 2
+    },
+    {
+        "nombre": "Apolo3",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 3
+    },
+    {
+        "nombre": "Apolo4",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 4
+    },
+    {
+        "nombre": "Artemis1",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 1
+    },
+    {
+        "nombre": "Artemis2",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 2
+    },
+    {
+        "nombre": "Artemis3",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 3
+    },
+    {
+        "nombre": "Artemis4",
+        "cuposClases": 0,
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
+        "horario": 4
+    }
 ]
