@@ -50,7 +50,6 @@
             "Neo4j"
         ],
         "backend": [
-            
             "springBoot",
             "NodeJS",
             "Express"
@@ -76,10 +75,32 @@
             "Neo4j"
         ],
         "backend": [
-            
             "springBoot",
             "NodeJS",
             "Express"
         ]
+    },
+    {
+        "nombre": "ruby",
+        "fundamentos": [
+            "flowgorithm",
+            "python",
+            "ruby"
+        ],
+        "programacionWeb": [
+            "javascript"
+        ],
+        "progFormal": [
+            "c++",
+            "java"
+        ],
+        "basesDatos": [
+            "MongoDB",
+            "BlueNode"
+        ],
+        "backend": [
+            "NodeJS"
+        ]
     }
+    
 ]

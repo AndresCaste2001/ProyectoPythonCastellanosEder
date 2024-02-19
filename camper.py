@@ -25,4 +25,3 @@ def creacionCamper():
     listaCampers.append({'documento':documento,'nombre':nombre,'apellido':apellido,'direccion':direccion,'acudiente':acudiente,'telefono':telefono,'celular':celular,'estado':estado,'riesgo':riesgo,'nota':nota,'salon':salon})
     jsonCRUD.guardarDatos(listaCampers,"campers.json")
 
-creacionCamper()

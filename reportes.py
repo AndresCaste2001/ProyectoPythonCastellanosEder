@@ -191,5 +191,3 @@ def mostrarModulosPerdidos():
                                 print(f"{nombre} {apellido} - {nota}")
                             listaCampersAprobado = {'primerModulo':[],'segundoModulo':[],'tercerModulo':[],'cuartoModulo':[],'quintoModulo':[]}
                             listaCampersReprobado = {'primerModulo':[],'segundoModulo':[],'tercerModulo':[],'cuartoModulo':[],'quintoModulo':[]}
-
-mostrarModulosPerdidos()

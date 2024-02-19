@@ -1,20 +1,20 @@
 [
     {
         "nombre": "Sputnik1",
-        "cuposClases": 3,
-        "ruta": "Java",
+        "cuposClases": 0,
+        "ruta": "",
         "fechaInicio": "11032023",
         "fechaSalida": "10122023",
-        "trainer": "Kellycita",
+        "trainer": "",
         "horario": 1
     },
     {
         "nombre": "Sputnik2",
         "cuposClases": 0,
-        "ruta": "NetCore",
-        "fechaInicio": "51966165",
-        "fechaSalida": "651651861",
-        "trainer": "Kellycita Mamasita",
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
         "horario": 2
     },
     {
@@ -56,10 +56,10 @@
     {
         "nombre": "Apolo3",
         "cuposClases": 0,
-        "ruta": "NodeJS",
-        "fechaInicio": "2331226",
-        "fechaSalida": "23623623",
-        "trainer": "Kellycita",
+        "ruta": "",
+        "fechaInicio": "",
+        "fechaSalida": "",
+        "trainer": "",
         "horario": 3
     },
     {
@@ -74,10 +74,10 @@
     {
         "nombre": "Artemis1",
         "cuposClases": 0,
-        "ruta": "",
-        "fechaInicio": "",
-        "fechaSalida": "",
-        "trainer": "",
+        "ruta": "ruby",
+        "fechaInicio": "30",
+        "fechaSalida": "513514",
+        "trainer": "Jose Camper",
         "horario": 1
     },
     {
