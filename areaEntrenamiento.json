@@ -3,8 +3,8 @@
         "nombre": "Sputnik1",
         "cuposClases": 0,
         "ruta": "",
-        "fechaInicio": "11032023",
-        "fechaSalida": "10122023",
+        "fechaInicio": "",
+        "fechaSalida": "",
         "trainer": "",
         "horario": 1
     },
@@ -73,7 +73,7 @@
     },
     {
         "nombre": "Artemis1",
-        "cuposClases": 0,
+        "cuposClases": 1,
         "ruta": "ruby",
         "fechaInicio": "30",
         "fechaSalida": "513514",

@@ -7,15 +7,15 @@
         "acudiente": "Alexandra",
         "telefono": 0,
         "celular": 3112765058,
-        "estado": "Aprobado",
+        "estado": "Cursando",
         "riesgo": "Bajo",
         "nota": [
-            0,
+            78.5,
             0,
             0,
             0,
             0
         ],
-        "salon": ""
+        "salon": "Artemis1"
     }
 ]

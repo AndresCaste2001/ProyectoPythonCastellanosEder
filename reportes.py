@@ -54,7 +54,7 @@ def mostrarCamperTrainerRuta():
     listaRutas = jsonCRUD.cargarDatos("rutas.json")
     listaCampers = jsonCRUD.cargarDatos("campers.json")
     listaArea = jsonCRUD.cargarDatos("areaEntrenamiento.json")
-
+    NoexisteSalon = True
     print("--- Rutas Existentes ---")
     for index,ruta in enumerate(listaRutas):
         nombre = ruta.get('nombre','no hay nombre')
@@ -65,8 +65,9 @@ def mostrarCamperTrainerRuta():
     for area in listaArea:
         rutaAsignada = area.get('ruta','no hay ruta')
         trainer = area.get('trainer','no existe trainer')
-        nombre = area.get('nombre','no hay salon')
+        nombreA = area.get('nombre','no hay salon')
         if rutaAsignada == nombreRuta:
+            NoexisteSalon = False
             print(f"--- {nombre} ---")
             print(f"para la ruta {nombreRuta} el trainer es {trainer}")
             print("--- lista estudiantes asociados ---")
@@ -74,8 +75,10 @@ def mostrarCamperTrainerRuta():
                 nombre = camper.get('nombre','no existe nombre')
                 apellido = camper.get('apellido','no existe apellido')
                 salon = camper.get('salon','no hay salon')
-                if salon == rutaAsignada:
+                if salon == nombreA:
                     print(f"{nombre} {apellido}")
+    if NoexisteSalon:
+        print("no hay salon asignado a esta ruta")        
 
 def mostrarModulosPerdidos():
     listaCampers = jsonCRUD.cargarDatos("campers.json")
